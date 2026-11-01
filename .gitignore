@@ -1,0 +1,34 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secret files
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Keep HR login credentials private
+data/hr_users.json
+
+# Ignore original and intermediate datasets
+data/employee_burnout.csv
+data/employee_burnout_clean.csv
+data/employee_burnout_clean_backup.csv
+data/employee_burnout_engineered.csv
+data/employee_burnout_engineered_backup.csv
+data/burnout_predictions_backup.csv
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+data/burnout_predictions.csv
+data/employee_burnout_backup.csv
