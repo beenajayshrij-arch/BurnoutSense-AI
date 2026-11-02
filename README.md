@@ -31,13 +31,28 @@ The original dataset is not included in this GitHub repository. Users must obtai
 
 - **Programming Language:** Python
 - **Data Processing:** Pandas, NumPy
--- **Machine Learning:** Scikit-learn (Linear Regression, Random Forest Regressor, XGBoost Regressor)
+- **Machine Learning:** Scikit-learn (Linear Regression, Random Forest Regressor, XGBoost Regressor)
 - **Explainable AI:** SHAP
 - **Dashboard:** Streamlit
 - **Visualization:** Plotly, Matplotlib
 - **Backend API:** FastAPI, Uvicorn
 - **LLM Integration:** Groq API
 - **Environment Management:** python-dotenv
+## Machine Learning Model Comparison and Selection
+
+Three machine learning models are trained and evaluated for employee burnout prediction:
+
+- **Linear Regression:** Baseline model.
+- **Random Forest Regressor:** Ensemble model.
+- **XGBoost Regressor:** Gradient boosting model.
+
+### Model Evaluation
+
+The models are compared using Test R² Score, MAE, RMSE, and 5-fold Cross-Validation.
+
+The model with the highest Test R² score is automatically selected as the final prediction model.
+
+The selected model is used for employee burnout predictions in the dashboard and API.
 
 ## System Architecture and Methodology
 
