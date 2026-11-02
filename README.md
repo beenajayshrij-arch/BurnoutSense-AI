@@ -192,8 +192,8 @@ The application provides multi-user HR login.
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd employee_burnout
+git clone https://github.com/beenajayshrij-arch/BurnoutSense-AI.git
+cd BurnoutSense-AI
 ```
 
 Replace the repository URL with your actual GitHub repository URL.
