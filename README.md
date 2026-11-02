@@ -31,7 +31,7 @@ The original dataset is not included in this GitHub repository. Users must obtai
 
 - **Programming Language:** Python
 - **Data Processing:** Pandas, NumPy
-- **Machine Learning:** Scikit-learn, XGBoost
+-- **Machine Learning:** Scikit-learn (Linear Regression, Random Forest Regressor, XGBoost Regressor)
 - **Explainable AI:** SHAP
 - **Dashboard:** Streamlit
 - **Visualization:** Plotly, Matplotlib
